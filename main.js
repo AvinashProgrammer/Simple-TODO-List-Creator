@@ -57,7 +57,7 @@ const showTodo = () => {
     todoSection.innerHTML = html;
 
     if (todoSection.innerHTML == "") {
-        const message = `<div class="msg">Adda some todos to see here...</div>`;
+        const message = `<div class="msg">Addaa some todos to see here...</div>`;
         todoSection.innerHTML = message;
     }
     deleteTodo()
